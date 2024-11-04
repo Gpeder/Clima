@@ -1,0 +1,96 @@
+/* Importa a fonte Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #333;
+}
+
+
+.main {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+
+.input {
+    width: calc(100% - 3rem);
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+
+.btn {
+    padding: 0.5rem;
+    font-size: 1rem;
+    background: #4facfe;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #00c6fb;
+}
+
+
+.main-md {
+    margin-top: 1.5rem;
+}
+
+.titulo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4facfe;
+}
+
+.temperatura {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.main-cx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.img-temp {
+    width: 80px;
+    height: 80px;
+    margin-right: 1rem;
+}
+
+.texto-previsao {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.texto-umidade {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #666;
+}
